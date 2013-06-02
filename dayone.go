@@ -98,7 +98,7 @@ const entryTemplate = `<?xml version="1.0" encoding="UTF-8"?>
 	<key>Creation Date</key>
 	<date>{{.Time}}</date>
 	<key>Entry Text</key>
-	<string>{{.Text}}</string>
+	<string>{{html .Text}}</string>
 	<key>Starred</key>
 	<false/>
 	<key>Time Zone</key>
