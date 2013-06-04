@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 	"os"
-	"./dayone"
+	"github.com/scheakur/godayone/dayone"
 )
 
 const version = "0.0.2"
